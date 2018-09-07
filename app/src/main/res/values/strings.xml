@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CryptoAlerts</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_visor">Visor</string>
+    <string name="show_pet">Mostrar Mascota</string>
+    <string name="message">Mensaje</string>
+    <string name="send">Enviar</string>
+    <string name="hi">Hola</string>
+</resources>
