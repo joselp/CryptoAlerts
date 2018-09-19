@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/ic_trending_up_foreground"
+            android:title="@string/profits"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/ic_trending_up_foreground"
+            android:title="@string/message"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/ic_trending_up_foreground"
+            android:title="@string/message"/>
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="@string/profits">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/ic_trending_up_foreground"
+                android:title="@string/profits15min"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/ic_trending_up_foreground"
+                android:title= "@string/profits30min"/>
+            <item
+                android:id="@+id/menu_opcion_3"
+                android:icon="@drawable/ic_trending_up_foreground"
+                android:title="@string/profits45min"/>
+            <item
+                android:id="@+id/menu_opcion_4"
+                android:icon="@drawable/ic_trending_up_foreground"
+                android:title="@string/profits1h"/>
+        </menu>
+    </item>
+</menu>

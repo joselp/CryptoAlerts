@@ -5,5 +5,11 @@
     <string name="show_pet">Mostrar Mascota</string>
     <string name="message">Mensaje</string>
     <string name="send">Enviar</string>
-    <string name="hi">Hola</string>
+    <string name="hi">Hi</string>
+    <string name="profits">Profits</string>
+    <string name="loses">Loses</string>
+    <string name="profits15min">Last 15min</string>
+    <string name="profits30min">Last 30min</string>
+    <string name="profits45min">Last 45min</string>
+    <string name="profits1h">Last 1 hour</string>
 </resources>
