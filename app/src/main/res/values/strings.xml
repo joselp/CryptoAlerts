@@ -12,4 +12,5 @@
     <string name="profits30min">Last 30min</string>
     <string name="profits45min">Last 45min</string>
     <string name="profits1h">Last 1 hour</string>
+    <string name="btc_price">BTC Price:</string>
 </resources>

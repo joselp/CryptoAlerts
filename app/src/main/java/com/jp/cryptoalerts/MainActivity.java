@@ -15,7 +15,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
+import android.widget.TextView;
 
 import com.jp.cryptoalerts.pojos.Price;
 import com.jp.cryptoalerts.service.PriceService;
@@ -80,12 +80,12 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i("TEST ---", "AQUI");
 
-        EditText etPrice = findViewById(R.id.etPrice);
-        etPrice.setText(getPrice(etPrice));
+       TextView tvPrice = findViewById(R.id.tvPrice);
+       tvPrice.setText(getPrice(tvPrice));
 
     }
 
-    public static String getPrice(final EditText editText){
+    public static String getPrice(final TextView tvPrice){
 
         final Price price = new Price();
 
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<Price> call, Response<Price> response) {
                 price.setUSD(response.body().getUSD());
 
-                editText.setText(response.body().getUSD());
+                tvPrice.setText(response.body().getUSD());
 
                 Log.i("INFO ---- ", response.body().getUSD());
 
